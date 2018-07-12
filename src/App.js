@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { Route } from 'react-router-dom'
-import BookShelf from './BookShelf'
-import SearchBooks from './SearchBooks'
-import * as BooksAPI from './utils/BooksAPI.js'
+import Shelves from './Shelves'
+import BooksSearch from './searching'
+import * as BooksAPI from './BooksAPI.js'
 import './App.css'
 
 class App extends Component {
