@@ -36,13 +36,13 @@ class App extends Component {
           <h1 className="title">My Reads</h1>
         </header>
         <Route exact path="/" render = {() => (
-          <BookShelf
+          <Shelves
             onChangeShelf={this.changeShelf}
             books={this.state.books}
           />
         )}/>
         <Route path="/search" render = {() => (
-          <SearchBooks
+          <BooksSearch
             onChangeShelf={this.changeShelf}
             booksOnShelf={this.state.books}
           />
